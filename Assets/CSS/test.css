@@ -1,0 +1,103 @@
+hmtl,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+label {
+  margin: 0;
+}
+
+/*------Nav-Bar------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgb(105, 181, 231);
+}
+
+header .logo-brand img {
+    width: 70px;
+  }
+  
+  header .nav-links {
+    width: 40%;
+  }
+  
+  header .nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  header .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Poor Richard;
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+
+/*----Nav-Bar End-----*/
+
+
+/* ----- Hero-Section --------- */
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../Images/image-header.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-section .caption {
+    color: #fff;
+    display: flex;
+    padding: 0px 0px 400px 370px;
+  }
+  
+  .hero-section .caption h2 {
+      font-size: 80px;
+      margin: 20px;
+      font-weight: 600;
+      text-transform: capitalize;
+  }
+
+  .hero-section .arrow-head img{
+      display: flex;
+      padding: 20px ;
+      height: 35%;
+      align-items: center;
+  }
+
+/*-------Hero-Section End------*/
+
+/*---Features-grid-container------*/
+
+.features-grid-container{
+    width: 80%;
+    margin-left: auto;margin-right: auto;     /*--Align container in the center----*/
+    padding-bottom: 6rem;
+}
+
+/*---Reverse the position og image and text in second row---*/
+
+.features-grid-row#second-row{flex-direction: row-reverse;}
+
+#first-row .features-grid-row-text{text-align: left;}
+#second-row .features-grid-row-text{text-align: right;}

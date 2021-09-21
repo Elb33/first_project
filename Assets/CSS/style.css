@@ -1,0 +1,545 @@
+/* *,hmtl, */
+*
+/* ,hmtl, */
+    
+html{
+    width: 1440px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* min-width: 380px; */
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'Fraunces', serif;    
+}
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+label,
+a {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+/*------Nav-Bar------*/
+
+header{
+    position: absolute;
+    width: 100%;
+}
+
+header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 40px;
+}
+
+header .logo-brand img {
+    width: 130px;
+    height: 30px;
+  }
+  
+  header .nav-links {
+    width: 40%;
+  }
+  
+  header .nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  header .nav-links ul li a {
+    color: white;
+    /* width: 70px; */
+    text-decoration: none;
+    /* font-family: 'Barlow', sans-serif; */
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3 ease 0s;
+  }
+
+
+ header .nav-links ul li a:hover{
+      background: white;
+      height: 30px;
+      width: 100vw;
+      border-radius: 50px;
+      /* box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff; */
+      color: black;
+  }
+
+/*----Nav-Bar End-----*/
+
+
+/* ----- Hero-Section --------- */
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../Images/image-header.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-section .caption-arrow-head{
+    /* display: flex;   */
+    align-items: center;
+    /* justify-content: center; */
+    height: 70%;
+    /* line-height: 1.5; */
+  }
+
+  /* .hero-section .caption { */
+    
+    /* padding: 0px 0px 400px 370px; */
+  /* } */
+  
+  .hero-section .caption-arrow-head h2 {
+      font-size: 50px;
+      padding-top: 30px;
+      padding-left: 40px;
+      /* text-align: justify; */
+      color: #fff;
+      /* display: flex; */
+      /* margin: 20px; */
+      font-weight: 600;
+      text-transform: uppercase;
+      /* text-orientation: sideways; */
+      /* text-size-adjust: 70px; */
+      /* text-rendering: optimizeSpeed; */
+      /* line-height: 3; */
+  }
+
+  .hero-section .caption-arrow-head img{
+      height: 130px;
+      padding-top: 85px;
+      padding-left: 48%;
+      padding-right: 52%;
+      /* justify-content: center; */
+  }
+
+/*-------Hero-Section End------*/
+
+/*----About-Us----*/
+
+.about-us{
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: row; */
+}
+
+.about-us .caption{
+    width: 50%;
+    padding-top: 170px;
+    /* margin: 20px; */
+    /* display: flex;
+    flex-direction:row; */
+    justify-content: center;
+}
+
+.about-us .caption h1{
+      font-size: 40px;
+      /* margin: 15px; */
+      width: 30vw;
+      padding-left: 120px;
+      padding-bottom: 30px;
+      text-transform: capitalize;
+      font-weight: 600;
+      color: black;
+      /* text-align: justify; */
+      justify-content: center;
+  }
+
+  .about-us .caption p{
+      font-size: 18px;
+      /* margin: 15px; */
+      width: 30vw;
+      padding-left: 130px;
+      padding-bottom: 20px;
+      color: darkgrey;
+      text-align: justify;
+      font-weight: 500;
+      line-height: 1.5;
+      justify-content: center;
+  }
+
+  .about-us .caption a{
+      /* text-shadow: 0 0 5px yellow; */
+    font-size: 18px;
+    /* margin: 20px; */
+    width: 30vw;
+    padding-left: 130px;
+    padding-top: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 238, 0);
+    text-decoration-thickness: 5px;
+    /* opacity: 30%; */
+    /* text-decoration-style: solid; */
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;;
+    color: black;
+}
+
+  .about-us .image{
+    width: 50%;
+  }
+
+  .about-us .image img{
+      width: 100%;
+      height: 100%;
+  }
+
+/*---About-Us End---*/
+
+/*---Movement---*/
+
+.movement{
+    display: flex;
+    flex-direction: row;
+}
+
+.movement .stand-out{
+    width: 49.7vw;
+}
+
+.movement .stand-out img{
+    width: 100%;
+    display: flex;
+    /* margin: 0px; */
+}
+
+.movement .caption{
+    /* padding-left: 30%; */
+    width: 50.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movement .caption h1{
+    font-size: 40px;
+    width: 30vw;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    /* margin: 15px; */
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    /* text-align: justify; */
+    
+}
+
+.movement .caption p{
+    font-size: 18px;
+    /* margin: 15px; */
+    width: 30vw;
+    padding-left: 130px;
+    color: darkgrey;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.movement .caption a{
+    font-size: 18px;
+    /* margin: 20px; */
+    width: 30vw;
+    padding-left: 130px;
+    padding-top: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgb(236, 74, 109);
+    text-decoration-thickness: 5px;
+    /* text-decoration: none; */
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;;
+    color: black;
+}
+
+/*---Movement End---*/
+
+/*---Photography-Design---*/
+
+.photography-design{
+    display: flex;
+}
+
+.photography-design .design-caption{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("../Images/image-graphic-design.jpg") ;
+    background-repeat: no-repeat;
+    background-position: left;
+    /* background-size: cover; */
+    
+}
+
+.photography-design .design-caption .caption-container, 
+.photography-design .photography-caption .caption-container{
+    padding-bottom: 70px;
+}
+
+.photography-design .design-caption h1{
+    font-size: 30px;
+    opacity: 55%;
+    padding-bottom: 40px;
+    /* color: rgb(104, 151, 108); */
+    width: 30vw;
+    padding-left: 130px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.photography-design .design-caption p{
+    font-size: 18px;
+    opacity: 55%;
+    /* color: rgb(104, 151, 108); */
+    line-height: 1.7;
+    width: 30vw;
+    padding-left: 130px;
+    text-align: center;    
+}
+
+.photography-design .photography-caption{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("../Images/image-photography.jpg") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.photography-design .photography-caption h1{
+    opacity: 55%;
+    font-size: 30px;
+    padding-bottom: 40px;
+    /* color: darkgrey; */
+    width: 30vw;
+    padding-left: 130px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.photography-design .photography-caption p{
+    line-height: 1.5;
+    opacity: 55%;
+    /* color: darkgrey; */
+    width: 30vw;
+    padding-left: 130px;
+    font-size: 18px;
+    text-align: center;    
+}
+
+
+/*---Photography-Design End---*/
+
+/* --------Testimony-------- */
+
+.title .testimonials{
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch; */
+}
+
+.title .testimonials h2{
+    align-items: stretch;
+    /* display: flex;
+    align-items: baseline; */
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: darkgrey;
+}
+
+.testimony {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.testimony .clients h1{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.testimony .clients h2{
+    font-size: 12px;
+    color: darkgrey;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.testimony .clients {
+    width: 25%;
+    text-align: center;
+}
+
+.testimony .clients img {
+    width: 60px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    border-radius: 50%;
+}
+
+.testimony .clients p {
+    color: darkgrey;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* --------Testimony End-------- */
+
+/*---Images---*/
+
+.images .images-random{
+    display: flex;
+    /* width: 20px; */
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+
+.images .images-random .box{
+    /* flex: 1; */
+    width: 25vw;
+}
+
+.images .images-random .box img{
+    /* flex: 1; */
+    width: 100%;
+}
+
+/*---Images End---*/
+
+
+/*---Nav-Social-Bar---*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 70%;
+    padding: 20px 40px;
+    /* width: 100%; */
+    background: rgb(114, 194, 165);    
+}
+
+.footer .logo-brand{
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+}
+
+.footer .nav-links{   
+    /* display: flex; */
+    /* justify-content: space-evenly;  */
+    /* font-family: Poor Richard; */
+    font-weight: 600;
+    font-size: 18px;
+    /* justify-content: space-between; */
+}
+
+.footer .nav-links ul{
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 30vw;
+    padding-left: 430px;
+    /* width: 50px; */
+    /* display: inline-block; */
+}
+
+/* .footer.nav-links ul li{
+    display: inline-block;
+    justify-content: space-between;
+    width: 30vw;
+    width: 50px;
+    height: 10px;
+    text-align: center;
+    list-style: none;
+} */
+
+.footer .nav-links ul li a{
+    color: grey ;
+    /* justify-content: space-evenly;
+    width: 50px; */
+    text-decoration: none;
+}
+
+.footer .social-contact{
+    display: flex;
+    justify-content: center;
+    /* margin: 25% auto; */
+}
+
+.footer .social-contact ul{
+    width: 30vw;
+    padding-left: 200px;
+}
+
+.footer .social-contact ul li{
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    /* background-color: #eee; */
+    /* margin: auto 50px; */
+    /* box-shadow: 3px 3px 10px #aeaeae, -4px -4px 10px white; */
+    text-align: center;
+    /* line-height: 100px; */
+    /* font-size: 15px; */
+    /* color: #333; */
+    /* cursor: pointer; */
+}
+
+/*.footer .logo-brand img {
+    width: 70px;
+  }
+  
+  .footer .nav-links {
+    width: 40%;
+  }
+  
+  .footer .nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .footer .nav-links ul li a {
+    color: lightskyblue;
+    text-decoration: none;
+    font-family: Poor Richard;
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+
+/*---Nav-Social-Bar End---*/  
+
